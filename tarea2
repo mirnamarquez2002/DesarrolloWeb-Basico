@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Blog personal</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <i class="fa-sharp fa-solid fa-user"></i>
+    <i class="fa-sharp fa-solid fa-user"></i>
+    <i class="fa-sharp fa-solid fa-user"></i>
+    <div> 
+        <h1>Mirna Marquez</h1>
+    </div>
+
+    <h2 class="primero">Un poco de mí:</h2>
+<p id="parrafo" class="info">
+</p>Hola mi nombre completo es Mirna Daniela Márquez Sánchez, soy estudiante de 4to semestre de la carrera de ingeniería en computación, me gusta mucho el marketing, el diseño web y todo lo que tenga que ver con crear digitalmente contenido creativo. Me gusta mucho leer sobre la mente y el universo, ver películas, salir con mis amigos, ir a museos de arte moderno y conocer cafeterías bonitas. Soy gran aficionada del deporte, actualmente practico volleyball y pensando en entrar al mundo del tenis.
+ También me gustan bastante los animales,tengo 3 perritos y 2 hurones.  </p>
+
+ <h2 class="segundo">¿Por qué decidí estudiar ingeniería?:</h2>
+<p>Todos en mi familia son ingenieros, entonces desde pequeña se me mostró todo este mundo, conforme crecía conocía nuevas pasiones y cosas en lo que era buena, entonces qué mejor forma de juntar estas pasiones con cosas innovadoras, con nuevas tecnologías que son nuestro futuro, para así lograr garndes proyectos.</p>
+
+<h2 class="tercero">Mis metas:</h2>
+<p>Mi meta a corto/mediano plazo es terminar mi carrera, lograr empezar a tener un acercamiento real con ella en los últimos semstres por cursar, seguir juntando experiencia, constuyendo un camino para lo que será de mí saliendo de la universidad. Lograr trabajar en algo que me apasione y me haga querer hacerlo día con día.</p>
+
+<div class="contenedor">
+    <div class="caja">
+        <i class="fa-sharp fa-solid fa-camera"></i>
+        <a href="https://instagram.com/mirna_dms?igshid=YmMyMTA2M2Y=" target="_blank">INSTAGRAM</a>
+    </div>
+
+    <div class="caja">
+        <i class="fa-sharp fa-solid fa-laptop"></i>
+        <a href="https://www.facebook.com/mirna.marquez13?mibextid=LQQJ4d" target="_blank">FACEBOOK</a>
+    </div>
+</div>
+
+</body>
+</html>
+
+//CSS//
+*{
+    background-color: beige;
+    margin: 0;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+
+}
+
+h2 {
+    white-space: break-spaces;
+    text-decoration:underline
+    font-size: large;
+    color: rgb(82, 21, 21);
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    white-space: 1;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+div {
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.segundo{
+    text-decoration:underline
+    white-space: break-spaces;
+    color: rgb(139, 61, 30);
+    font-size: large;
+    text-align: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
